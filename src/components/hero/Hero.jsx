@@ -8,7 +8,10 @@ import correctIcon from "../../../images/correct-icon.svg";
 
 const Hero = () => {
   return (
-    <section className="py-28 text-center relative container mx-auto px-8">
+    <section
+      className="py-28 text-center relative container mx-auto px-8"
+      id="hero"
+    >
       <div className="bg-linear-to-b from-purple-200 via-blue-200 to-purple-50 blur-3xl opacity-20 h-1/2 absolute top-0 left-0 w-full -z-10"></div>
       <header className="flex items-center gap-2 py-1 px-4 bg-purple-50 w-fit rounded-2xl shadow-md mx-auto mb-6 hover:bg-purple-100 transition-all">
         <HighMomentum />
