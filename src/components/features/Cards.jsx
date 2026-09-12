@@ -6,11 +6,15 @@ import seamlessIcon from "../../../images/seamless-icon.svg";
 import clockIcon from "../../../images/clock-icon.svg";
 import userImage from "../../../images/user-image.svg";
 
+// bg-${color}-200/30
+// text-${textColor}-600
+
 const Cards = () => {
   return (
     <ul className="mt-14 grid grid-cols-3 gap-9 max-2xl:grid-cols-2 max-md:grid-cols-1 px-6">
       <Card
-        color="purple"
+        backgroundColor="bg-purple-200/30"
+        textColor="text-purple-600"
         description="Categorize, tag, and prioritize your daily tasks with intuitive
           drag-and-drop boards, multi-dimensional filtering, and automatic task
           sorting."
@@ -39,7 +43,8 @@ const Cards = () => {
       </Card>
 
       <Card
-        color="blue"
+        backgroundColor="bg-blue-200/30"
+        textColor="text-blue-600"
         description="Never miss a deadline with automated
           notifications synced across all your
           devices, contextual snooze alerts, and
@@ -72,7 +77,8 @@ const Cards = () => {
       </Card>
 
       <Card
-        color="orange"
+        backgroundColor="bg-orange-200/30"
+        textColor="text-orange-600"
         description="Share lists, delegate tasks, and chat
           with team members in real-time with
           multi-cursor live editing, instant
