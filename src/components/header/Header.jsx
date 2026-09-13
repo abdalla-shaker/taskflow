@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-purple-0/30 backdrop-blur-3xl backdrop-saturate-150 fixed w-full top-0 left-0 z-10">
+    <header className="bg-purple-0/30 backdrop-blur-3xl backdrop-saturate-150 fixed w-full top-0 left-0 z-50">
       <div className="lg:container mx-auto py-4 max-lg:px-4 px-4 flex items-center gap-10 max-md:justify-between">
         <div className="logo-side flex gap-4 items-center">
           <div className="flex items-center gap-3">
@@ -20,7 +20,7 @@ const Header = () => {
         </div>
 
         <div
-          className={`flex items-center gap-2.5 w-full md:justify-between max-md:absolute max-md:flex-col max-md:h-dvh max-md:top-0 max-md:left-0 max-md:bg-purple-0 max-md:justify-center max-md:gap-10 ${isOpen ? "max-md:translate-x-0" : "max-md:translate-x-full"} transition-all`}
+          className={`flex items-center gap-2.5 w-full md:justify-between max-md:absolute max-md:flex-col max-md:h-dvh max-md:top-0 max-md:left-0 max-md:bg-purple-0 max-md:justify-center max-md:gap-10 ${isOpen ? "max-md:translate-x-0" : "max-md:translate-x-full"} transition-all z-0`}
         >
           <nav>
             <ul className="flex items-center gap-2.5 text-lg font-semibold max-md:flex-col max-md:text-3xl">

@@ -5,7 +5,7 @@ import wavyIcon from "../../../images/wavy-correct-icon.svg";
 
 const Pricing = () => {
   return (
-    <section className="container mx-auto p-10 text-center">
+    <section className="container mx-auto p-10 text-center" id="pricing">
       <span className="font-bold text-purple-600 tracking-wide py-1 px-3 bg-purple-300/20 rounded-4xl inline-block mb-4">
         TRANSPARENT PLANS
       </span>
@@ -66,7 +66,7 @@ const Pricing = () => {
           </article>
         </li>
 
-        <li className="p-8 bg-purple-0 rounded-2xl border-4 border-purple-600 relative shadow-2xl -translate-y-5">
+        <li className="p-8 bg-purple-0 rounded-2xl border-4 border-purple-600 relative shadow-2xl max-2xl:translate-0 -translate-y-5">
           <article className="flex flex-col justify-between gap-y-20">
             <span className="text-purple-50 text-xs font-bold tracking-widest py-1 px-3 bg-purple-500 rounded-2xl absolute top-0 left-1/2 -translate-1/2">
               MOST POPULAR

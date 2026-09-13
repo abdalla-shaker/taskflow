@@ -4,6 +4,7 @@ import Features from "./components/features/Features.jsx";
 import Workflow from "./components/workflow/Workflow.jsx";
 import Testimonials from "./components/testimonials/Testimonials.jsx";
 import Pricing from "./components/pricing/Pricing.jsx";
+import Cta from "./components/cta/Cta.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Workflow />
         <Testimonials />
         <Pricing />
+        <Cta />
       </main>
     </>
   );
