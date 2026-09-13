@@ -1,16 +1,87 @@
-# React + Vite
+# 📝 TaskFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskFlow is a modern, responsive task management application built to help users organize, track, and manage their daily workflows efficiently. Designed with a focus on intuitive user interface, fast interaction, and seamless local persistence.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+Check out the live application hosted on GitHub Pages:
+👉 **[View Live Demo](https://abdalla-shaker.github.io/taskflow/)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![TaskFlow Preview](https://abdalla-shaker.github.io/taskflow/preview.png)
+
+> *Note: Make sure to upload your preview image or screenshot to your project folder (e.g. `public/preview.png` or repository root) so it displays correctly here.*
+
+---
+
+## ✨ Features
+
+- **Task Creation & Management:** Easily add, edit, complete, and delete daily tasks.
+- **Interactive UI:** Smooth UI state transitions and quick responsiveness powered by React and Vite.
+- **Local Storage Persistence:** Keeps your task list saved in the browser so data isn't lost on refresh.
+- **Responsive Design:** Optimized for mobile, tablet, and desktop viewports.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework / Library:** React
+- **Build Tool:** Vite
+- **Styling:** CSS3 / Tailwind CSS
+- **Deployment:** GitHub Pages (`gh-pages`)
+
+---
+
+## 📦 Installation & Setup
+
+Follow these steps to run the project locally on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/abdalla-shaker/taskflow.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd taskflow
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Start the local development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. Open `http://localhost:5173` in your browser to view the app.
+
+---
+
+## 🚀 Deployment
+
+This project is configured to deploy to GitHub Pages using the `gh-pages` package:
+
+```bash
+npm run deploy
+```
+
+---
+
+## 👤 Author
+
+**Abdalla Shaker**
+- GitHub: [@abdalla-shaker](https://github.com/abdalla-shaker)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
