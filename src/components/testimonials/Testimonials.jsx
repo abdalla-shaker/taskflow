@@ -40,7 +40,10 @@ const StarRating = () => (
 
 const Testimonials = () => {
   return (
-    <section className="bg-purple-50 py-16 px-4 sm:px-6 lg:px-8">
+    <section
+      className="bg-purple-50/30 py-16 px-4 sm:px-6 lg:px-8"
+      id="testimonials"
+    >
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <span className="inline-block bg-blue-100 text-blue-600 font-semibold text-xs tracking-wider uppercase px-4 py-1.5 rounded-full mb-4">
@@ -57,37 +60,36 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
+        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
           {testimonialsList.map((item) => (
-            <article
-              key={item.id}
-              className="bg-natural-0 rounded-2xl shadow-sm border border-natural-100 overflow-hidden flex flex-col justify-between transition-transform duration-300 hover:-translate-y-1"
-            >
-              <div className="p-6 sm:p-8 flex-1">
-                <StarRating />
-                <blockquote className="text-natural-800 text-base sm:text-lg font-medium leading-relaxed">
-                  {item.quote}
-                </blockquote>
-              </div>
-
-              <div className="bg-purple-50/30 border-t border-purple-50 p-6 flex items-center gap-4">
-                <img
-                  src={item.avatar}
-                  alt={item.name}
-                  className="w-12 h-12 rounded-full object-cover shrink-0"
-                />
-                <div>
-                  <h3 className="text-sm font-bold text-natural-900">
-                    {item.name}
-                  </h3>
-                  <p className="text-xs text-natural-900 font-medium">
-                    {item.role}
-                  </p>
+            <li key={item.id}>
+              <article className="bg-natural-0 rounded-2xl shadow-sm border border-natural-100 overflow-hidden flex flex-col justify-between transition-transform duration-300 hover:-translate-y-1">
+                <div className="p-6 sm:p-8 flex-1">
+                  <StarRating />
+                  <blockquote className="text-natural-800 text-base sm:text-lg font-medium leading-relaxed cursor-default">
+                    {item.quote}
+                  </blockquote>
                 </div>
-              </div>
-            </article>
+
+                <div className="bg-purple-50/30 border-t border-purple-50 p-6 flex items-center gap-4">
+                  <img
+                    src={item.avatar}
+                    alt={item.name}
+                    className="w-12 h-12 rounded-full object-cover shrink-0"
+                  />
+                  <div>
+                    <h3 className="text-sm font-bold text-natural-900">
+                      {item.name}
+                    </h3>
+                    <p className="text-xs text-natural-900 font-medium">
+                      {item.role}
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     </section>
   );

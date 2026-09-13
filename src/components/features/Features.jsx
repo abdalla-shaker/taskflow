@@ -4,11 +4,9 @@ const Features = () => {
   return (
     <section className="py-20 bg-purple-100/20 text-center" id="features">
       <div className="container mx-auto">
-        <div className="py-1 px-3 bg-purple-300/20 w-fit rounded-4xl mx-auto mb-4">
-          <p className="font-bold text-purple-300 tracking-wide">
-            CORE CAPABILITIES
-          </p>
-        </div>
+        <span className="font-bold text-purple-300 tracking-wide py-1 px-3 bg-purple-300/20 rounded-4xl inline-block mb-4">
+          CORE CAPABILITIES
+        </span>
 
         <h2 className="text-5xl font-bold tracking-tight mb-5 px-6">
           Why Choose TaskFlow?

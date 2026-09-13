@@ -8,7 +8,7 @@ const Card = ({
   children,
 }) => {
   return (
-    <li className="flex flex-col justify-between text-left bg-purple-0 p-8 rounded-2xl hover:-translate-y-3 hover:shadow-2xl transition-all drop-shadow-xs">
+    <li className="flex flex-col justify-between text-left bg-purple-0 p-8 rounded-2xl hover:-translate-y-3 hover:shadow-2xl transition-all duration-300 drop-shadow-xs">
       <div>
         <div
           className={`w-14 h-14 ${backgroundColor} flex justify-center items-center rounded-xl mb-6`}
