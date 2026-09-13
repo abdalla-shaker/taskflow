@@ -23,7 +23,7 @@ const Cta = () => {
           or CSV with one click.
         </p>
       </div>
-      <button className="bg-purple-0 text-purple-600 px-11 py-5 font-bold rounded-lg">
+      <button className="bg-purple-0 text-purple-600 px-11 py-5 font-bold rounded-lg hover:-translate-y-2 transition-all duration-300 cursor-pointer">
         Get Started Now
       </button>
     </section>
