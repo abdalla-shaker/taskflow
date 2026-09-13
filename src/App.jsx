@@ -5,6 +5,7 @@ import Workflow from "./components/workflow/Workflow.jsx";
 import Testimonials from "./components/testimonials/Testimonials.jsx";
 import Pricing from "./components/pricing/Pricing.jsx";
 import Cta from "./components/cta/Cta.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Pricing />
         <Cta />
       </main>
+      <Footer />
     </>
   );
 }
