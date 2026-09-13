@@ -62,8 +62,11 @@ const Testimonials = () => {
 
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
           {testimonialsList.map((item) => (
-            <li key={item.id}>
-              <article className="bg-natural-0 rounded-2xl shadow-sm border border-natural-100 overflow-hidden flex flex-col justify-between transition-transform duration-300 hover:-translate-y-1">
+            <li
+              key={item.id}
+              className="bg-natural-0 rounded-2xl shadow-sm border border-natural-100 overflow-hidden transition-transform duration-300 hover:-translate-y-1"
+            >
+              <article className="flex flex-col justify-between h-full">
                 <div className="p-6 sm:p-8 flex-1">
                   <StarRating />
                   <blockquote className="text-natural-800 text-base sm:text-lg font-medium leading-relaxed cursor-default">
