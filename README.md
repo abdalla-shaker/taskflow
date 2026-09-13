@@ -15,7 +15,7 @@ Check out the live application hosted on GitHub Pages:
 
 ![TaskFlow Preview](https://abdalla-shaker.github.io/taskflow/preview.png)
 
-> *Note: Make sure to upload your preview image or screenshot to your project folder (e.g. `public/preview.png` or repository root) so it displays correctly here.*
+> _Note: Make sure to upload your preview image or screenshot to your project folder (e.g. `public/preview.png` or repository root) so it displays correctly here._
 
 ---
 
@@ -42,21 +42,25 @@ Check out the live application hosted on GitHub Pages:
 Follow these steps to run the project locally on your machine:
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/abdalla-shaker/taskflow.git
    ```
 
 2. **Navigate to the project directory:**
+
    ```bash
    cd taskflow
    ```
 
 3. **Install dependencies:**
+
    ```bash
    npm install
    ```
 
 4. **Start the local development server:**
+
    ```bash
    npm run dev
    ```
@@ -78,6 +82,7 @@ npm run deploy
 ## 👤 Author
 
 **Abdalla Shaker**
+
 - GitHub: [@abdalla-shaker](https://github.com/abdalla-shaker)
 
 ---
