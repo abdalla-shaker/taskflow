@@ -15,8 +15,6 @@ Check out the live application hosted on GitHub Pages:
 
 ![TaskFlow Preview](https://raw.githubusercontent.com/abdalla-shaker/taskflow/main/public/preview.png)
 
-> _Note: Make sure to upload your preview image or screenshot to your project folder (e.g. `public/preview.png` or repository root) so it displays correctly here._
-
 ---
 
 ## ✨ Features
